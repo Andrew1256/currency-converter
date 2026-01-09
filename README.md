@@ -16,14 +16,15 @@
 - **Стилізація**: Tailwind CSS
 - **Архітектура**: Feature-Sliced Design (FSD)
 - **Якість коду**:
-    - [ESLint](https://eslint.org/) — лінтинг JS/TS коду.
-    - [Prettier](https://prettier.io/) — автоматичне форматування.
-    - [Steiger](https://github.com/feature-sliced/steiger) — архітектурний лінтер для перевірки дотримання правил FSD.
-    - [Husky](https://typicode.github.io/husky/) — Git-хуки для автоматизації перевірок.
+  - [ESLint](https://eslint.org/) — лінтинг JS/TS коду.
+  - [Prettier](https://prettier.io/) — автоматичне форматування.
+  - [Steiger](https://github.com/feature-sliced/steiger) — архітектурний лінтер для перевірки дотримання правил FSD.
+  - [Husky](https://typicode.github.io/husky/) — Git-хуки для автоматизації перевірок.
 
 ## 🏗 Архітектура (FSD)
 
 Проект організований за рівнями (layers):
+
 - `app/` — ініціалізація додатку, глобальні стилі.
 - `pages/` — основні сторінки додатку.
 - `shared/` — перевикористовувані UI-компоненти, API-клієнти, хелпери.
@@ -33,3 +34,6 @@
 1. **Клонуйте репозиторій**:
    ```bash
    git clone (https://github.com/Andrew1256/currency-converter.git)
+   ```
+
+DEMO: https://currency-converter-seven-rosy-12.vercel.app/
