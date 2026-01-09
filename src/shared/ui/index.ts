@@ -1,1 +1,1 @@
-export * from './currencyInput';
+export * from './CurrencyInput.tsx';

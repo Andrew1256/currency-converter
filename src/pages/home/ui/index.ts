@@ -1,2 +1,2 @@
-export * from './header';
-export * from './currencyConverter';
+export * from './Header.tsx';
+export * from './CurrencyConverter.tsx';
