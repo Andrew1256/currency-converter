@@ -1,0 +1,5 @@
+#!/bin/sh
+
+npx prettier --check .
+npx eslint .
+export CI=true && npx steiger ./src
